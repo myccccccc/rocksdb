@@ -1,3 +1,8 @@
+Use [Bear](https://github.com/rizsotto/Bear) to generate `compile_commands.json` by running
+```shell
+bear --  make static_lib -j8
+```
+
 ## RocksDB: A Persistent Key-Value Store for Flash and RAM Storage
 
 [![CircleCI Status](https://circleci.com/gh/facebook/rocksdb.svg?style=svg)](https://circleci.com/gh/facebook/rocksdb)
