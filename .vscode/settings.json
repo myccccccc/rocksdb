@@ -1,0 +1,11 @@
+{
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "clangd.arguments": [
+        "--background-index",
+        "--compile-commands-dir=${workspaceFolder}",
+        "-j=8",
+        "--all-scopes-completion",
+        "--completion-style=detailed",
+        "--pch-storage=memory",
+      ],
+}
